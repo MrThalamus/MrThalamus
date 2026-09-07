@@ -6,26 +6,56 @@ I am Saikot, a Computer Science enthusiast working across C#, Python, PHP, and w
 
 ## Skills:
 
-### Programming languages: [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) [Python](https://www.python.org) [PHP](https://www.php.net) [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+### Programming Languages
 
-### Frontend Development: [HTML](https://www.w3.org/html/) [CSS](https://www.w3schools.com/css/) [Bootstrap](https://getbootstrap.com)
+<p align="left">
+  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/></a>
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
+  <a href="https://www.php.net"><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/></a>
+</p>
 
-### Backend Development: [.NET](https://dotnet.microsoft.com/) [PHP](https://www.php.net)
+### Frontend Development
 
-### Databases & Cloud Hosting: [MySQL](https://www.mysql.com/) [SQL Server](https://www.microsoft.com/en-us/sql-server) [GitHub Pages](https://pages.github.com/)
+<p align="left">
+  <a href="https://www.w3.org/html/"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/></a>
+  <a href="https://www.w3schools.com/css/"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/></a>
+  <a href="https://getbootstrap.com"><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/></a>
+</p>
 
-### Software & Tools: [Git](https://git-scm.com/) [Visual Studio](https://visualstudio.microsoft.com/) [Visual Studio Code](https://code.visualstudio.com/)
+### Backend Development
+
+<p align="left">
+  <a href="https://dotnet.microsoft.com/"><img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/></a>
+  <a href="https://www.php.net"><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/></a>
+</p>
+
+### Databases & Cloud Hosting
+
+<p align="left">
+  <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/></a>
+  <a href="https://www.microsoft.com/en-us/sql-server"><img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server"/></a>
+  <a href="https://pages.github.com/"><img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages"/></a>
+</p>
+
+### Software & Tools
+
+<p align="left">
+  <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></a>
+  <a href="https://visualstudio.microsoft.com/"><img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio"/></a>
+  <a href="https://code.visualstudio.com/"><img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code"/></a>
+</p>
 
 ## Connect
 
-- 📫 How to reach me: your-email@example.com <!-- REPLACE WITH YOUR EMAIL -->
-- 💻 Here is my [Personal Portfolio](https://your-portfolio-link.example.com) <!-- REPLACE WITH YOUR PORTFOLIO LINK -->
-- 🔗 [LinkedIn](https://www.linkedin.com/in/your-linkedin-handle) <!-- REPLACE WITH YOUR LINKEDIN LINK -->
+- 📫 How to reach me: md.saikot.hossainn@example.com <!-- REPLACE WITH YOUR EMAIL -->
+- 💻 Here is my [Personal Portfolio](https://mdsaikothossain.vercel.app/) <!-- REPLACE WITH YOUR PORTFOLIO LINK -->
+- 🔗 [LinkedIn](https://www.linkedin.com/in/md-saikot-hossain-b66237256/) <!-- REPLACE WITH YOUR LINKEDIN LINK -->
 
-#### *Currently looking for Software Development / Data Analysis roles* <!-- REPLACE OR REMOVE -->
+#### *Currently looking for Software Engineer / Machine Learning Engineer roles* <!-- REPLACE OR REMOVE -->
 
-- Studying / graduated from **Your University Name** <!-- REPLACE WITH YOUR UNIVERSITY -->
-- Currently working on projects involving C#, Python, and PHP-based systems.
+- Studying / graduated from **American International University-Bangladesh** <!-- REPLACE WITH YOUR UNIVERSITY -->
+- Currently working on projects involving C#, Python, and Agentic AI systems.
 
 ## Pinned Projects
 
