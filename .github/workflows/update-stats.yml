@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Generate animated header
+        run: python .github/scripts/generate_header.py
+
       - name: Generate stats cards
         env:
           # Optional: add a STATS_TOKEN secret (classic PAT, scopes: read:user) to count private contributions too.

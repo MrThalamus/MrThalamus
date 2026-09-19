@@ -1,5 +1,15 @@
 {
   "username": "MrThalamus",
+  "header": {
+    "greeting": "Hello, this is",
+    "name": "MD. Saikot Hossain",
+    "roles": [
+      "Computer Science Enthusiast",
+      "Software Developer",
+      "C# · Python · PHP · Web",
+      "Exploring Agentic AI systems"
+    ]
+  },
   "exclude_repos": ["MrThalamus"],
   "exclude_languages": ["Jupyter Notebook"],
   "top_languages": 6,
