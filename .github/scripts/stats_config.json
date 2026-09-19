@@ -1,0 +1,39 @@
+{
+  "username": "MrThalamus",
+  "exclude_repos": ["MrThalamus"],
+  "exclude_languages": ["Jupyter Notebook"],
+  "top_languages": 6,
+  "fallback_category": {"name": "Other", "color": "#8b949e"},
+  "categories": [
+    {
+      "name": "Data Analytics",
+      "color": "#f2c811",
+      "match": ["power ?bi", "tableau", "dashboard", "analytics"],
+      "languages": []
+    },
+    {
+      "name": "AI & Machine Learning",
+      "color": "#3572a5",
+      "match": ["\\bml\\b", "\\bai\\b", "machine learning", "deep learning", "vision", "\\bnlp\\b", "kaggle", "disease", "fashion", "openclip", "faiss", "used ?car", "prediction", "codealpha"],
+      "languages": ["Jupyter Notebook"]
+    },
+    {
+      "name": "Web Development",
+      "color": "#e34c26",
+      "match": ["web", "portfolio", "frontend", "clone", "agriland", "blood donation"],
+      "languages": ["HTML", "CSS", "PHP", "JavaScript", "TypeScript"]
+    },
+    {
+      "name": "Academic Courses",
+      "color": "#a371f7",
+      "match": ["course project", "\\bcg\\b"],
+      "languages": []
+    },
+    {
+      "name": "Software Systems",
+      "color": "#3fb950",
+      "match": ["c sharp", "assignment", "zero hunger"],
+      "languages": ["C#", "C++", "C", "Java"]
+    }
+  ]
+}

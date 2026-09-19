@@ -75,9 +75,12 @@ I am Saikot, a Computer Science enthusiast working across C#, Python, PHP, and w
 
 ### GitHub Stats
 
+<!-- Generated every 6 hours by .github/workflows/update-stats.yml -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MrThalamus&show_icons=true&theme=default" alt="MrThalamus's GitHub stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrThalamus&layout=compact" alt="Top Languages" height="165"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg">
+    <img src="assets/github-stats-light.svg" alt="MrThalamus's GitHub stats: contributions, commits, projects by category, top languages" width="100%">
+  </picture>
 </p>
 
 <p align="center"><i>Thanks for stopping by! ⭐ Feel free to explore my repositories.</i></p>
