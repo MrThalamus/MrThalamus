@@ -64,19 +64,6 @@ I am Saikot, a Computer Science enthusiast working across C#, Python, PHP, and w
 - 💻 Here is my [Personal Portfolio](https://mdsaikothossain.vercel.app/) <!-- REPLACE WITH YOUR PORTFOLIO LINK -->
 - 🔗 [LinkedIn](https://www.linkedin.com/in/md-saikot-hossain-b66237256/) <!-- REPLACE WITH YOUR LINKEDIN LINK -->
 
-#### *Currently looking for Software Engineer / Machine Learning Engineer roles* <!-- REPLACE OR REMOVE -->
-
-- Studying / graduated from **American International University-Bangladesh** <!-- REPLACE WITH YOUR UNIVERSITY -->
-- Currently working on projects involving C#, Python, and Agentic AI systems.
-
-## Pinned Projects
-
-1. **[AssignmentSystem](https://github.com/MrThalamus/AssignmentSystem)** — A system for managing and tracking assignments. `C#`
-2. **[Zero_Hunger](https://github.com/MrThalamus/Zero_Hunger)** — A project tackling food security challenges. `C#`
-3. **[Blood-Donation-Management-System](https://github.com/MrThalamus/Blood-Donation-Management-System)** — A platform for coordinating blood donations. `HTML`
-4. **[Used-Car-Purchase-Decision-Support-System](https://github.com/MrThalamus/Used-Car-Purchase-Decision-Support-System)** — A decision-support tool for used car purchases. `Python`
-5. **[AgriLand-Ecosystem](https://github.com/MrThalamus/AgriLand-Ecosystem)** — An ecosystem project for agriculture and land management. `PHP`
-
 ## Connecting with
 
 <p align="left">
