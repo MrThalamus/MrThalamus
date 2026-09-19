@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="688" viewBox="0 0 830 688" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="GitHub stats">
+<rect x="1" y="1" width="828" height="318" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+<text x="32" y="45" font-size="20" font-weight="600" fill="#1f2328">GitHub stats</text>
+<text x="32" y="109" font-size="28" font-weight="600" fill="#1f2328">204</text>
+<text x="32" y="131" font-size="14" fill="#656d76">Total contributions</text>
+<text x="344" y="109" font-size="28" font-weight="600" fill="#1f2328">172</text>
+<text x="344" y="131" font-size="14" fill="#656d76">Commits</text>
+<text x="656" y="109" font-size="28" font-weight="600" fill="#1f2328">0</text>
+<text x="656" y="131" font-size="14" fill="#656d76">Pull requests</text>
+<text x="32" y="187" font-size="28" font-weight="600" fill="#1f2328">0</text>
+<text x="32" y="209" font-size="14" fill="#656d76">Issues</text>
+<text x="344" y="187" font-size="28" font-weight="600" fill="#1f2328">2 repos</text>
+<text x="344" y="209" font-size="14" fill="#656d76">Contributed to</text>
+<text x="656" y="187" font-size="28" font-weight="600" fill="#1f2328">0</text>
+<text x="656" y="209" font-size="14" fill="#656d76">Stars earned</text>
+<text x="32" y="265" font-size="28" font-weight="600" fill="#1f2328">0</text>
+<text x="32" y="287" font-size="14" fill="#656d76">Followers</text>
+<text x="344" y="265" font-size="28" font-weight="600" fill="#1f2328">0 days</text>
+<text x="344" y="287" font-size="14" fill="#656d76">Current streak</text>
+<text x="656" y="265" font-size="28" font-weight="600" fill="#1f2328">5 days</text>
+<text x="656" y="287" font-size="14" fill="#656d76">Longest streak</text>
+<rect x="1" y="335" width="828" height="168" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+<text x="32" y="379" font-size="20" font-weight="600" fill="#1f2328">Projects by category</text><text x="798" y="379" font-size="14" text-anchor="end" fill="#656d76">30 projects</text>
+<clipPath id="clip-cat"><rect x="32" y="401" width="766" height="8" rx="4"/></clipPath>
+<g clip-path="url(#clip-cat)">
+<rect x="32.00" y="401" width="25.53" height="8" fill="#f2c811"/>
+<rect x="57.53" y="401" width="331.93" height="8" fill="#3572a5"/>
+<rect x="389.47" y="401" width="153.20" height="8" fill="#e34c26"/>
+<rect x="542.67" y="401" width="178.73" height="8" fill="#a371f7"/>
+<rect x="721.40" y="401" width="76.60" height="8" fill="#3fb950"/>
+</g>
+<circle cx="38" cy="448" r="6" fill="#f2c811"/>
+<text x="52" y="453" font-size="14" fill="#1f2328">Data Analytics <tspan fill="#656d76">1</tspan></text>
+<circle cx="350" cy="448" r="6" fill="#3572a5"/>
+<text x="364" y="453" font-size="14" fill="#1f2328">AI &amp; Machine Learning <tspan fill="#656d76">13</tspan></text>
+<circle cx="662" cy="448" r="6" fill="#e34c26"/>
+<text x="676" y="453" font-size="14" fill="#1f2328">Web Development <tspan fill="#656d76">6</tspan></text>
+<circle cx="38" cy="478" r="6" fill="#a371f7"/>
+<text x="52" y="483" font-size="14" fill="#1f2328">Academic Courses <tspan fill="#656d76">7</tspan></text>
+<circle cx="350" cy="478" r="6" fill="#3fb950"/>
+<text x="364" y="483" font-size="14" fill="#1f2328">Software Systems <tspan fill="#656d76">3</tspan></text>
+<rect x="1" y="519" width="828" height="168" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+<text x="32" y="563" font-size="20" font-weight="600" fill="#1f2328">Top languages</text>
+<clipPath id="clip-lang"><rect x="32" y="585" width="766" height="8" rx="4"/></clipPath>
+<g clip-path="url(#clip-lang)">
+<rect x="32.00" y="585" width="204.86" height="8" fill="#7355dd"/>
+<rect x="236.86" y="585" width="176.99" height="8" fill="#3178c6"/>
+<rect x="413.85" y="585" width="123.27" height="8" fill="#4F5D95"/>
+<rect x="537.12" y="585" width="107.22" height="8" fill="#e34c26"/>
+<rect x="644.34" y="585" width="91.32" height="8" fill="#f34b7d"/>
+<rect x="735.66" y="585" width="62.34" height="8" fill="#663399"/>
+</g>
+<circle cx="38" cy="632" r="6" fill="#7355dd"/>
+<text x="52" y="637" font-size="14" fill="#1f2328">C# <tspan fill="#656d76">25.4%</tspan></text>
+<circle cx="350" cy="632" r="6" fill="#3178c6"/>
+<text x="364" y="637" font-size="14" fill="#1f2328">TypeScript <tspan fill="#656d76">21.9%</tspan></text>
+<circle cx="662" cy="632" r="6" fill="#4F5D95"/>
+<text x="676" y="637" font-size="14" fill="#1f2328">PHP <tspan fill="#656d76">15.3%</tspan></text>
+<circle cx="38" cy="662" r="6" fill="#e34c26"/>
+<text x="52" y="667" font-size="14" fill="#1f2328">HTML <tspan fill="#656d76">13.3%</tspan></text>
+<circle cx="350" cy="662" r="6" fill="#f34b7d"/>
+<text x="364" y="667" font-size="14" fill="#1f2328">C++ <tspan fill="#656d76">11.3%</tspan></text>
+<circle cx="662" cy="662" r="6" fill="#663399"/>
+<text x="676" y="667" font-size="14" fill="#1f2328">CSS <tspan fill="#656d76">7.7%</tspan></text>
+</svg>
