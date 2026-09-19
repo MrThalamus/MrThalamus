@@ -64,14 +64,6 @@ I am Saikot, a Computer Science enthusiast working across C#, Python, PHP, and w
 - 💻 Here is my [Personal Portfolio](https://mdsaikothossain.vercel.app/) <!-- REPLACE WITH YOUR PORTFOLIO LINK -->
 - 🔗 [LinkedIn](https://www.linkedin.com/in/md-saikot-hossain-b66237256/) <!-- REPLACE WITH YOUR LINKEDIN LINK -->
 
-## Connecting with
-
-<p align="left">
-  <a href="https://github.com/MrThalamus"><img src="https://img.shields.io/badge/-GitHub-000?style=flat-square&logo=Github&logoColor=white" alt="Github Badge"/></a>
-  <a href="https://www.linkedin.com/in/your-linkedin-handle"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge"/></a>
-  <!-- REPLACE LINKEDIN URL ABOVE -->
-</p>
-
 ### GitHub Stats
 
 <!-- Generated every 6 hours by .github/workflows/update-stats.yml -->

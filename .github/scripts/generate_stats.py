@@ -23,6 +23,7 @@ THEMES = {
 }
 
 WIDTH = 830
+COLUMN = 290  # horizontal spacing of the 3-column grids
 FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 
 
@@ -149,7 +150,9 @@ def category_counts(repos, config):
     colors = {c["name"]: c["color"] for c in config["categories"]}
     colors[config["fallback_category"]["name"]] = config["fallback_category"]["color"]
     order = [c["name"] for c in config["categories"]] + [config["fallback_category"]["name"]]
-    return [(name, counts[name], colors[name]) for name in order if name in counts]
+    present = [name for name in order if name in counts]
+    present.sort(key=lambda name: -counts[name])  # biggest first; ties keep config order
+    return [(name, counts[name], colors[name]) for name in present]
 
 
 def language_shares(repos, config):
@@ -222,31 +225,43 @@ def stats_card(y, stats, theme):
     height = 318
     out = [card(y, height, theme), title(y, "GitHub stats", theme)]
     for i, (value, label) in enumerate(cells):
-        x, top = 32 + (i % 3) * 312, y + 108 + (i // 3) * 78
+        x, top = 32 + (i % 3) * COLUMN, y + 108 + (i // 3) * 78
         out.append(f'<text x="{x}" y="{top}" font-size="28" font-weight="600" fill="{theme["text"]}">{escape(value)}</text>')
         out.append(f'<text x="{x}" y="{top + 22}" font-size="14" fill="{theme["muted"]}">{escape(label)}</text>')
     return "\n".join(out), height
 
 
-def breakdown_card(y, heading, right, items, clip_id, theme):
-    """A segmented bar plus a 3-column legend. items = [(label, weight, color, detail)]."""
+def label_color(fill):
+    """Dark text on light fills (e.g. yellow), white on dark ones."""
+    r, g, b = (int(fill[i:i + 2], 16) for i in (1, 3, 5))
+    return "#0d1117" if (0.299 * r + 0.587 * g + 0.114 * b) > 150 else "#ffffff"
+
+
+def breakdown_card(y, heading, right, items, clip_id, theme, bar_h=8, bar_labels=False):
+    """A segmented bar plus a 3-column legend. items = [(label, weight, color, detail)].
+
+    With bar_labels the bar is drawn taller and each segment wide enough gets its percentage inside.
+    """
     rows = -(-len(items) // 3)
-    height = 96 + rows * 30 + 12
+    height = 100 + bar_h + rows * 30
     total = sum(weight for _, weight, _, _ in items) or 1
     bar_x, bar_w, bar_y = 32, WIDTH - 64, y + 66
 
     out = [card(y, height, theme), title(y, heading, theme, right),
-           f'<clipPath id="{clip_id}"><rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="8" rx="4"/></clipPath>',
+           f'<clipPath id="{clip_id}"><rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="{bar_h / 2:g}"/></clipPath>',
            f'<g clip-path="url(#{clip_id})">']
     x = bar_x
     for _, weight, color, _ in items:
         w = bar_w * weight / total
-        out.append(f'<rect x="{x:.2f}" y="{bar_y}" width="{w:.2f}" height="8" fill="{color}"/>')
+        out.append(f'<rect x="{x:.2f}" y="{bar_y}" width="{w:.2f}" height="{bar_h}" fill="{color}"/>')
+        if bar_labels and w >= 50:
+            out.append(f'<text x="{x + w / 2:.2f}" y="{bar_y + bar_h / 2 + 4:.1f}" font-size="12" font-weight="600" '
+                       f'text-anchor="middle" fill="{label_color(color)}">{weight / total * 100:.1f}%</text>')
         x += w
     out.append("</g>")
 
     for i, (label, _, color, detail) in enumerate(items):
-        lx, ly = 32 + (i % 3) * 312, y + 118 + (i // 3) * 30
+        lx, ly = 32 + (i % 3) * COLUMN, y + 110 + bar_h + (i // 3) * 30
         out.append(f'<circle cx="{lx + 6}" cy="{ly - 5}" r="6" fill="{color}"/>')
         out.append(f'<text x="{lx + 20}" y="{ly}" font-size="14" fill="{theme["text"]}">{escape(label)} '
                    f'<tspan fill="{theme["muted"]}">{escape(detail)}</tspan></text>')
@@ -261,8 +276,10 @@ def render(stats, theme):
     parts.append(block)
     y += height + gap
 
-    projects = [(name, count, color, str(count)) for name, count, color in stats["categories"]]
-    block, height = breakdown_card(y, "Projects by category", f"{stats['projects']} projects", projects, "clip-cat", theme)
+    total = sum(count for _, count, _ in stats["categories"]) or 1
+    projects = [(name, count, color, f"{count} · {count / total * 100:.1f}%") for name, count, color in stats["categories"]]
+    block, height = breakdown_card(y, "Projects by category", f"{stats['projects']} projects", projects, "clip-cat", theme,
+                                   bar_h=22, bar_labels=True)
     parts.append(block)
     y += height + gap
 
