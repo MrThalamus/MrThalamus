@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="830" height="702" viewBox="0 0 830 702" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="GitHub stats">
 <rect x="1" y="1" width="828" height="318" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
 <text x="32" y="45" font-size="20" font-weight="600" fill="#e6edf3">GitHub stats</text>
-<text x="32" y="109" font-size="28" font-weight="600" fill="#e6edf3">234</text>
+<text x="32" y="109" font-size="28" font-weight="600" fill="#e6edf3">246</text>
 <text x="32" y="131" font-size="14" fill="#8b949e">Total contributions</text>
-<text x="322" y="109" font-size="28" font-weight="600" fill="#e6edf3">200</text>
+<text x="322" y="109" font-size="28" font-weight="600" fill="#e6edf3">211</text>
 <text x="322" y="131" font-size="14" fill="#8b949e">Commits</text>
 <text x="612" y="109" font-size="28" font-weight="600" fill="#e6edf3">0</text>
 <text x="612" y="131" font-size="14" fill="#8b949e">Pull requests</text>
@@ -15,55 +15,56 @@
 <text x="612" y="209" font-size="14" fill="#8b949e">Stars earned</text>
 <text x="32" y="265" font-size="28" font-weight="600" fill="#e6edf3">0</text>
 <text x="32" y="287" font-size="14" fill="#8b949e">Followers</text>
-<text x="322" y="265" font-size="28" font-weight="600" fill="#e6edf3">1 day</text>
+<text x="322" y="265" font-size="28" font-weight="600" fill="#e6edf3">2 days</text>
 <text x="322" y="287" font-size="14" fill="#8b949e">Current streak</text>
 <text x="612" y="265" font-size="28" font-weight="600" fill="#e6edf3">5 days</text>
 <text x="612" y="287" font-size="14" fill="#8b949e">Longest streak</text>
 <rect x="1" y="335" width="828" height="182" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-<text x="32" y="379" font-size="20" font-weight="600" fill="#e6edf3">Projects by category</text><text x="798" y="379" font-size="14" text-anchor="end" fill="#8b949e">32 projects</text>
+<text x="32" y="379" font-size="20" font-weight="600" fill="#e6edf3">Projects by category</text><text x="798" y="379" font-size="14" text-anchor="end" fill="#8b949e">33 projects</text>
 <clipPath id="clip-cat"><rect x="32" y="401" width="766" height="22" rx="11"/></clipPath>
 <g clip-path="url(#clip-cat)">
-<rect x="32.00" y="401" width="311.19" height="22" fill="#3572a5"/>
-<text x="187.59" y="416.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">40.6%</text>
-<rect x="343.19" y="401" width="167.56" height="22" fill="#a371f7"/>
-<text x="426.97" y="416.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">21.9%</text>
-<rect x="510.75" y="401" width="143.62" height="22" fill="#e34c26"/>
-<text x="582.56" y="416.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">18.8%</text>
-<rect x="654.38" y="401" width="95.75" height="22" fill="#3fb950"/>
-<text x="702.25" y="416.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">12.5%</text>
-<rect x="750.12" y="401" width="47.88" height="22" fill="#8b949e"/>
+<rect x="32.00" y="401" width="301.76" height="22" fill="#3572a5"/>
+<text x="182.88" y="416.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">39.4%</text>
+<rect x="333.76" y="401" width="162.48" height="22" fill="#a371f7"/>
+<text x="415.00" y="416.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">21.2%</text>
+<rect x="496.24" y="401" width="139.27" height="22" fill="#e34c26"/>
+<text x="565.88" y="416.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">18.2%</text>
+<rect x="635.52" y="401" width="92.85" height="22" fill="#3fb950"/>
+<text x="681.94" y="416.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">12.1%</text>
+<rect x="728.36" y="401" width="69.64" height="22" fill="#8b949e"/>
+<text x="763.18" y="416.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">9.1%</text>
 </g>
 <circle cx="38" cy="462" r="6" fill="#3572a5"/>
-<text x="52" y="467" font-size="14" fill="#e6edf3">AI &amp; Machine Learning <tspan fill="#8b949e">13 · 40.6%</tspan></text>
+<text x="52" y="467" font-size="14" fill="#e6edf3">AI &amp; Machine Learning <tspan fill="#8b949e">13 · 39.4%</tspan></text>
 <circle cx="328" cy="462" r="6" fill="#a371f7"/>
-<text x="342" y="467" font-size="14" fill="#e6edf3">Academic Courses <tspan fill="#8b949e">7 · 21.9%</tspan></text>
+<text x="342" y="467" font-size="14" fill="#e6edf3">Academic Courses <tspan fill="#8b949e">7 · 21.2%</tspan></text>
 <circle cx="618" cy="462" r="6" fill="#e34c26"/>
-<text x="632" y="467" font-size="14" fill="#e6edf3">Web Development <tspan fill="#8b949e">6 · 18.8%</tspan></text>
+<text x="632" y="467" font-size="14" fill="#e6edf3">Web Development <tspan fill="#8b949e">6 · 18.2%</tspan></text>
 <circle cx="38" cy="492" r="6" fill="#3fb950"/>
-<text x="52" y="497" font-size="14" fill="#e6edf3">Software Systems <tspan fill="#8b949e">4 · 12.5%</tspan></text>
+<text x="52" y="497" font-size="14" fill="#e6edf3">Software Systems <tspan fill="#8b949e">4 · 12.1%</tspan></text>
 <circle cx="328" cy="492" r="6" fill="#8b949e"/>
-<text x="342" y="497" font-size="14" fill="#e6edf3">Other <tspan fill="#8b949e">2 · 6.2%</tspan></text>
+<text x="342" y="497" font-size="14" fill="#e6edf3">Other <tspan fill="#8b949e">3 · 9.1%</tspan></text>
 <rect x="1" y="533" width="828" height="168" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
 <text x="32" y="577" font-size="20" font-weight="600" fill="#e6edf3">Top languages</text>
 <clipPath id="clip-lang"><rect x="32" y="599" width="766" height="8" rx="4"/></clipPath>
 <g clip-path="url(#clip-lang)">
-<rect x="32.00" y="599" width="184.18" height="8" fill="#7355dd"/>
-<rect x="216.18" y="599" width="184.02" height="8" fill="#3178c6"/>
-<rect x="400.21" y="599" width="128.87" height="8" fill="#f34b7d"/>
-<rect x="529.08" y="599" width="110.83" height="8" fill="#4F5D95"/>
-<rect x="639.90" y="599" width="96.55" height="8" fill="#e34c26"/>
-<rect x="736.46" y="599" width="61.54" height="8" fill="#3572A5"/>
+<rect x="32.00" y="599" width="165.29" height="8" fill="#7355dd"/>
+<rect x="197.29" y="599" width="165.14" height="8" fill="#3178c6"/>
+<rect x="362.43" y="599" width="130.40" height="8" fill="#3572A5"/>
+<rect x="492.83" y="599" width="115.65" height="8" fill="#f34b7d"/>
+<rect x="608.48" y="599" width="99.46" height="8" fill="#4F5D95"/>
+<rect x="707.94" y="599" width="90.06" height="8" fill="#e34c26"/>
 </g>
 <circle cx="38" cy="646" r="6" fill="#7355dd"/>
-<text x="52" y="651" font-size="14" fill="#e6edf3">C# <tspan fill="#8b949e">21.7%</tspan></text>
+<text x="52" y="651" font-size="14" fill="#e6edf3">C# <tspan fill="#8b949e">19.4%</tspan></text>
 <circle cx="328" cy="646" r="6" fill="#3178c6"/>
-<text x="342" y="651" font-size="14" fill="#e6edf3">TypeScript <tspan fill="#8b949e">21.7%</tspan></text>
-<circle cx="618" cy="646" r="6" fill="#f34b7d"/>
-<text x="632" y="651" font-size="14" fill="#e6edf3">C++ <tspan fill="#8b949e">15.2%</tspan></text>
-<circle cx="38" cy="676" r="6" fill="#4F5D95"/>
-<text x="52" y="681" font-size="14" fill="#e6edf3">PHP <tspan fill="#8b949e">13.1%</tspan></text>
-<circle cx="328" cy="676" r="6" fill="#e34c26"/>
-<text x="342" y="681" font-size="14" fill="#e6edf3">HTML <tspan fill="#8b949e">11.4%</tspan></text>
-<circle cx="618" cy="676" r="6" fill="#3572A5"/>
-<text x="632" y="681" font-size="14" fill="#e6edf3">Python <tspan fill="#8b949e">7.3%</tspan></text>
+<text x="342" y="651" font-size="14" fill="#e6edf3">TypeScript <tspan fill="#8b949e">19.4%</tspan></text>
+<circle cx="618" cy="646" r="6" fill="#3572A5"/>
+<text x="632" y="651" font-size="14" fill="#e6edf3">Python <tspan fill="#8b949e">15.3%</tspan></text>
+<circle cx="38" cy="676" r="6" fill="#f34b7d"/>
+<text x="52" y="681" font-size="14" fill="#e6edf3">C++ <tspan fill="#8b949e">13.6%</tspan></text>
+<circle cx="328" cy="676" r="6" fill="#4F5D95"/>
+<text x="342" y="681" font-size="14" fill="#e6edf3">PHP <tspan fill="#8b949e">11.7%</tspan></text>
+<circle cx="618" cy="676" r="6" fill="#e34c26"/>
+<text x="632" y="681" font-size="14" fill="#e6edf3">HTML <tspan fill="#8b949e">10.6%</tspan></text>
 </svg>
