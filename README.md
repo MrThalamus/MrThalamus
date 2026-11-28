@@ -8,7 +8,7 @@
 
 ### Computer Science Enthusiast | Software Developer
 
-I am Saikot, a Computer Science enthusiast working across C#, Python, PHP, and web technologies. I enjoy building practical systems — from assignment and blood donation management platforms to decision-support tools — and I'm always exploring new frameworks and ideas.
+I am Saikot, a Computer Science enthusiast working across C#, Python, Django, and web technologies. I enjoy building practical systems — from assignment and blood donation management platforms to decision-support tools — and I'm always exploring new frameworks and ideas.
 
 ## Skills:
 
