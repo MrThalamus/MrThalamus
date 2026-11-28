@@ -31,7 +31,7 @@
       "name": "Web Development",
       "color": "#e34c26",
       "match": ["web", "portfolio", "frontend", "clone", "agriland", "blood donation"],
-      "languages": ["HTML", "CSS", "PHP", "JavaScript", "TypeScript"]
+      "languages": ["HTML", "CSS", "JavaScript", "TypeScript"]
     },
     {
       "name": "Academic Courses",
